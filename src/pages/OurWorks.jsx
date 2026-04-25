@@ -33,7 +33,7 @@ export default function OurWorks() {
               <button
                 key={option.value}
                 onClick={() => setFilter(option.value)}
-                className={`px-6 py-3 rounded-lg font-semibold transition-all duration-300 ${
+                className={`px-6 py-3 rounded-lg font-semibold transition-all duration-300 cursor-pointer ${
                   filter === option.value
                     ? 'bg-gray-900 text-white'
                     : 'bg-white text-gray-900 border-2 border-gray-900 hover:bg-gray-900 hover:text-white'
