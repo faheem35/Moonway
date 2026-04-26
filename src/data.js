@@ -32,8 +32,8 @@ import ong8 from './assets/works/ong8.jpeg'
 
 export const companyData = {
   name: 'Moonway General Contracting',
-  email: 'info@moonwayemirates.com',
-  phone: '+971 28 865 928',
+  email: 'info@moonwayuae.com',
+  phone: '02 44 919 50',
   address: 'Abu Dhabi, UAE',
   description: 'Leading general contracting company in UAE providing professional construction, interior design, and fitout solutions.',
   tagline: 'Building Dreams, Creating Spaces',

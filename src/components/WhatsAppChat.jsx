@@ -4,7 +4,7 @@ import { companyData } from '../data';
 export default function WhatsAppChat() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const phoneNumber = companyData.phone.replace(/\D/g, '');
+  const phoneNumber = '971501124309'
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=Hello%20${companyData.name}%2C%20I%20would%20like%20to%20know%20more%20about%20your%20services.`;
 
   return (

@@ -2,7 +2,7 @@ import { jobOpenings } from '../data'
 
 export default function Careers() {
   const handleApply = (jobTitle) => {
-    const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=info@moonwayemirates.com&su=Job%20Application:%20${encodeURIComponent(jobTitle)}`
+    const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=info@moonwayuae.com&su=Job%20Application:%20${encodeURIComponent(jobTitle)}`
     window.open(mailtoLink, '_blank')
   }
 
@@ -114,7 +114,7 @@ export default function Careers() {
 </p>
 
 <a
-  href="https://mail.google.com/mail/?view=cm&fs=1&to=info@moonwayemirates.com&su=CV%20Submission%20-%20Future%20Opportunities"
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=info@moonwayuae.com&su=CV%20Submission%20-%20Future%20Opportunities"
   target="_blank"
   rel="noreferrer"
   className="inline-block mt-6 px-8 py-3 bg-gray-900 text-white rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-300"
@@ -200,7 +200,7 @@ export default function Careers() {
     </p>
 
     <a
-      href="https://mail.google.com/mail/?view=cm&fs=1&to=info@moonwayemirates.com&su=CV%20Submission%20for%20Future%20Opportunities"
+      href="https://mail.google.com/mail/?view=cm&fs=1&to=info@moonwayuae.com&su=CV%20Submission%20for%20Future%20Opportunities"
       target="_blank"
       rel="noreferrer"
       className="inline-block px-10 py-4 bg-yellow-400 text-gray-900 rounded-lg font-bold text-lg hover:bg-yellow-500 transition-colors duration-300"

@@ -252,7 +252,7 @@ export default function ContactUs() {
           <h2 className="text-4xl font-bold mb-6">Have a Large Project?</h2>
           <p className="text-lg text-gray-600 mb-8">Schedule a consultation with our team to discuss your construction requirements</p>
         <a  
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=info@moonwayemirates.com&su=Consultation%20Request"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=info@moonwayuae.com&su=Consultation%20Request"
             target="_blank"
             rel="noreferrer"
             className="inline-block px-10 py-4 bg-yellow-400 text-gray-900 rounded-lg font-bold text-lg hover:bg-yellow-500 transition-colors duration-300"

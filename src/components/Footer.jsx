@@ -86,7 +86,7 @@ export default function Footer() {
     {/* Divider */}
     <div className="border-t border-gray-700 pt-8">
       <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-center">
-        <p className="text-gray-400 text-sm">© 2025 Moonway General Contracting. All rights reserved.</p>
+        <p className="text-gray-400 text-sm">© 2026 Moonway General Contracting. All rights reserved.</p>
         <div className="flex gap-6 text-sm">
           <a href="#" className="text-gray-400 hover:text-yellow-400 transition-colors duration-300">Privacy Policy</a>
           <a href="#" className="text-gray-400 hover:text-yellow-400 transition-colors duration-300">Terms of Service</a>
