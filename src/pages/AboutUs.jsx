@@ -28,13 +28,13 @@ export default function AboutUs() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Who We Are</h2>
-              <p className="text-gray-700 leading-relaxed mb-4">
+             <p className="text-lg lg:text-xl text-gray-700 leading-relaxed mb-4 text-justify hyphens-auto [text-align-last:left]">
                 Moonway General Contracting is a leading construction and design company based in the UAE. With over two decades of experience, we have established ourselves as a trusted partner for residential, commercial, and industrial projects.
               </p>
-              <p className="text-gray-700 leading-relaxed mb-4">
+             <p className="text-lg lg:text-xl text-gray-700 leading-relaxed mb-4 text-justify hyphens-auto [text-align-last:left]">
                 Our commitment to quality, innovation, and customer satisfaction has made us one of the most respected names in the construction industry. We pride ourselves on delivering projects on time, within budget, and to the highest standards of craftsmanship.
               </p>
-              <p className="text-gray-700 leading-relaxed">
+            <p className="text-lg lg:text-xl text-gray-700 leading-relaxed mb-4 text-justify hyphens-auto [text-align-last:left]">
                 From general contracting to interior design and specialized fitout works, we offer comprehensive solutions to meet your project requirements.
               </p>
             </div>
