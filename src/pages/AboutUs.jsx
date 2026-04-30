@@ -17,7 +17,7 @@ export default function AboutUs() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-7xl font-bold mb-6">About Us</h1>
           <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">
-            Leading construction company with over 20 years of excellence
+            Leading construction company with over 15 years of excellence
           </p>
         </div>
       </section>

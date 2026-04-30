@@ -5,6 +5,14 @@ import villa from './assets/whatwedo/villa.jpg'
 import mep from './assets/whatwedo/mep.jpg'
 import shuttering from './assets/whatwedo/shuttering.jpg'
 
+import comp_7 from './assets/works/comp-7.jpeg'
+import comp_6 from './assets/works/comp-6.jpeg'
+import comp_5 from './assets/works/comp-5.jpeg'
+import comp_4 from './assets/works/comp-4.jpeg'
+import comp_3 from './assets/works/comp-3.jpeg'
+import comp_2 from './assets/works/comp-2.jpeg'
+import comp_1 from './assets/works/comp-1.jpeg'
+
 import comp1 from './assets/works/comp1.jpg'
 import comp2 from './assets/works/comp2.jpg'
 import comp3 from './assets/works/comp3.jpg'
@@ -26,7 +34,7 @@ import ong2 from './assets/works/ong2.jpg'
 import ong3 from './assets/works/ong3.jpg'
 import ong4 from './assets/works/ong4.jpg'
 import ong5 from './assets/works/ong5.jpg'
-import ong6 from './assets/works/ong6.jpeg'
+
 import ong7 from './assets/works/ong7.jpeg'
 import ong8 from './assets/works/ong8.jpeg'
 
@@ -172,6 +180,64 @@ export const whatWeDo = [
 ]
 
 export const projects = [
+   {
+    id: -7,
+    title: 'AUTOMOTIVE PRECISION TECHNOLOGY ',
+    location: 'Abu Dhabi',
+    category: 'completed',
+    image: comp_7,
+    description: 'State-of-the-art office complex with green building features'
+  },
+   {
+    id: -6,
+    title: 'CONMIX LIMITED –READY MIX PLANT',
+    location: 'Abu Dhabi',
+    category: 'completed',
+    image: comp_6,
+    description: 'State-of-the-art office complex with green building features'
+  },
+   {
+    id: -5,
+    title: 'NEW TISSUE FOR PAPER HANDKERCHIEFS TOWELS AND SERVIETTESS MANUFACTURING L.L.C',
+    location: 'Abu Dhabi',
+    category: 'completed',
+    image: comp_5,
+    description: 'State-of-the-art office complex with green building features'
+  },
+   {
+    id: -4,
+    title: 'AL JAZEERA STEEL PRODUCTS CO. L.L.C',
+    location: 'Abu Dhabi',
+    category: 'completed',
+    image: comp_4,
+    description: 'State-of-the-art office complex with green building features'
+  },
+   {
+    id: -3,
+    title: 'AL JAZEERA STEEL PRODUCTS CO. L.L.C',
+    location: 'Abu Dhabi',
+    category: 'completed',
+    image: comp_3,
+    description: 'State-of-the-art office complex with green building features'
+  },
+   {
+    id: -2,
+    title: 'AQUA CHEMIEGLOBAL CHEMICALS L.L.C ',
+    location: 'Abu Dhabi',
+    category: 'completed',
+    image: comp_2,
+    description: 'State-of-the-art office complex with green building features'
+  },
+   {
+    id: -1,
+    title: 'P.S.M THOMASSEN L.L.C',
+    location: 'Abu Dhabi',
+    category: 'completed',
+    image: comp_1,
+    description: 'State-of-the-art office complex with green building features'
+  },
+
+
   {
     id: 1,
     title: 'BESIX-TROJAN JV',
@@ -218,85 +284,85 @@ export const projects = [
     image: comp6,
     description: 'Modern shopping center with contemporary design'
   },
-  {
-    id: 7,
-    title: 'TESC General Contracting',
-    location: 'Al Reem Island Bridge',
-    category: 'completed',
-    image: comp7,
-    description: 'Modern shopping center with contemporary design'
-  },
-  {
-    id: 8,
-    title: 'Ghantoot General Contracting',
-    location: 'Akoya',
-    category: 'completed',
-    image: comp8,
-    description: 'Modern shopping center with contemporary design'
-  },
-  {
-    id: 9,
-    title: 'Civilco General Contracting',
-    location: 'Al Raha',
-    category: 'completed',
-    image: comp9,
-    description: 'Modern shopping center with contemporary design'
-  },
-  {
-    id: 10,
-    title: 'Art House Café',
-    location: 'Al Bandar, Al Raha Beach, Abu Dhabi',
-    category: 'completed',
-    image: comp10,
-    description: 'Modern shopping center with contemporary design'
-  },
-  {
-    id: 11,
-    title: ' Sun & Sand Sports LLC',
-    location: 'Marina Mall, Abu Dhabi',
-    category: 'completed',
-    image: comp11,
-    description: 'Modern shopping center with contemporary design'
-  },
-  {
-    id: 12,
-    title: 'Holister Fashion LLC',
-    location: 'Al Mariyah',
-    category: 'completed',
-    image: comp12,
-    description: 'Modern shopping center with contemporary design'
-  },
-  {
-    id: 13,
-    title: 'Givenchy ',
-    location: 'Galleria Mall, Abu Dhabi',
-    category: 'completed',
-    image: comp13,
-    description: 'Modern shopping center with contemporary design'
-  },
-  {
-    id: 14,
-    title: 'Mr.mohamed al zaabi',
-    location: 'Al Shamkha',
-    category: 'completed',
-    image: comp14,
-    description: 'Modern shopping center with contemporary design'
-  },
-  {
-    id: 15,
-    title: 'Mr.Abdllah Al Rumaithy',
-    location: 'Al Ryad city',
-    category: 'completed',
-    image: comp15,
-    description: 'Modern shopping center with contemporary design'
-  },
+  // {
+  //   id: 7,
+  //   title: 'TESC General Contracting',
+  //   location: 'Al Reem Island Bridge',
+  //   category: 'completed',
+  //   image: comp7,
+  //   description: 'Modern shopping center with contemporary design'
+  // },
+  // {
+  //   id: 8,
+  //   title: 'Ghantoot General Contracting',
+  //   location: 'Akoya',
+  //   category: 'completed',
+  //   image: comp8,
+  //   description: 'Modern shopping center with contemporary design'
+  // },
+  // {
+  //   id: 9,
+  //   title: 'Civilco General Contracting',
+  //   location: 'Al Raha',
+  //   category: 'completed',
+  //   image: comp9,
+  //   description: 'Modern shopping center with contemporary design'
+  // },
+  // {
+  //   id: 10,
+  //   title: 'Art House Café',
+  //   location: 'Al Bandar, Al Raha Beach, Abu Dhabi',
+  //   category: 'completed',
+  //   image: comp10,
+  //   description: 'Modern shopping center with contemporary design'
+  // },
+  // {
+  //   id: 11,
+  //   title: ' Sun & Sand Sports LLC',
+  //   location: 'Marina Mall, Abu Dhabi',
+  //   category: 'completed',
+  //   image: comp11,
+  //   description: 'Modern shopping center with contemporary design'
+  // },
+  // {
+  //   id: 12,
+  //   title: 'Holister Fashion LLC',
+  //   location: 'Al Mariyah',
+  //   category: 'completed',
+  //   image: comp12,
+  //   description: 'Modern shopping center with contemporary design'
+  // },
+  // {
+  //   id: 13,
+  //   title: 'Givenchy ',
+  //   location: 'Galleria Mall, Abu Dhabi',
+  //   category: 'completed',
+  //   image: comp13,
+  //   description: 'Modern shopping center with contemporary design'
+  // },
+  // {
+  //   id: 14,
+  //   title: 'Mr.mohamed al zaabi',
+  //   location: 'Al Shamkha',
+  //   category: 'completed',
+  //   image: comp14,
+  //   description: 'Modern shopping center with contemporary design'
+  // },
+  // {
+  //   id: 15,
+  //   title: 'Mr.Abdllah Al Rumaithy',
+  //   location: 'Al Ryad city',
+  //   category: 'completed',
+  //   image: comp15,
+  //   description: 'Modern shopping center with contemporary design'
+  // },
 
 
 
 
   {
     id: 101,
-    title: 'Aqua chemie l.l.c',
+    title: 'AQUA CHEMIE L.L.C',
     location: 'UAE',
     category: 'ongoing',
     image: ong1,
@@ -304,7 +370,7 @@ export const projects = [
   },
     {
     id: 102,
-    title: 'Al Jazeera steel products Saog',
+    title: 'AL JAZEERA STEEL PRODUCTS SAOG',
     location: 'UAE',
     category: 'ongoing',
     image: ong2,
@@ -334,17 +400,10 @@ export const projects = [
     image: ong5,
     description: 'Modern shopping center with contemporary design'
   },
-  {
-    id: 106,
-    title: 'Conmix LLC',
-    location: 'UAE',
-    category: 'ongoing',
-    image: ong6,
-    description: 'Modern shopping center with contemporary design'
-  },
+  
   {
     id: 107,
-    title: 'Al Masoud',
+    title: 'AL MASOUD',
     location: 'UAE',
     category: 'ongoing',
     image: ong7,
