@@ -206,7 +206,7 @@ export const projects = [
   },
    {
     id: -4,
-    title: 'AL JAZEERA STEEL PRODUCTS CO. L.L.C',
+    title: 'SWITCH FOODS INTERNATIONAL L.L.C',
     location: 'Abu Dhabi',
     category: 'completed',
     image: comp_4,
@@ -222,7 +222,7 @@ export const projects = [
   },
    {
     id: -2,
-    title: 'AQUA CHEMIEGLOBAL CHEMICALS L.L.C ',
+    title: 'AQUA CHEMIE GLOBAL CHEMICALS L.L.C (PHASE I) ',
     location: 'Abu Dhabi',
     category: 'completed',
     image: comp_2,
@@ -265,7 +265,7 @@ export const projects = [
   {
     id: 4,
     title: 'AL FARWANIYA REAL ESTATE DEVELOPMENT LLC',
-    location: 'Dubai',
+    location: 'Abu Dhabi',
     category: 'completed',
     image: comp4,
     description: 'Modern shopping center with contemporary design'
@@ -362,7 +362,7 @@ export const projects = [
 
   {
     id: 101,
-    title: 'AQUA CHEMIE L.L.C',
+    title: 'AQUA CHEMIE L.L.C (PHASE II)',
     location: 'UAE',
     category: 'ongoing',
     image: ong1,
@@ -392,14 +392,14 @@ export const projects = [
     image: ong4,
     description: 'Modern shopping center with contemporary design'
   },
-    {
-    id: 105,
-    title: 'TROJAN',
-    location: 'UAE',
-    category: 'ongoing',
-    image: ong5,
-    description: 'Modern shopping center with contemporary design'
-  },
+  //   {
+  //   id: 105,
+  //   title: 'TROJAN',
+  //   location: 'UAE',
+  //   category: 'ongoing',
+  //   image: ong5,
+  //   description: 'Modern shopping center with contemporary design'
+  // },
   
   {
     id: 107,
