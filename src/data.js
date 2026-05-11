@@ -37,6 +37,8 @@ import ong5 from './assets/works/ong5.jpg'
 
 import ong7 from './assets/works/ong7.jpeg'
 import ong8 from './assets/works/ong8.jpeg'
+import ong9 from './assets/works/ong9.jpeg'
+import ong10 from './assets/works/ong10.jpeg'
 
 export const companyData = {
   name: 'Moonway General Contracting',
@@ -181,7 +183,7 @@ export const whatWeDo = [
 
 export const projects = [
    {
-    id: -7,
+    id: 1,
     title: 'AUTOMOTIVE PRECISION TECHNOLOGY ',
     location: 'Abu Dhabi',
     category: 'completed',
@@ -189,7 +191,7 @@ export const projects = [
     description: 'State-of-the-art office complex with green building features'
   },
    {
-    id: -6,
+    id: 2,
     title: 'CONMIX LIMITED –READY MIX PLANT',
     location: 'Abu Dhabi',
     category: 'completed',
@@ -197,7 +199,7 @@ export const projects = [
     description: 'State-of-the-art office complex with green building features'
   },
    {
-    id: -5,
+    id: 3,
     title: 'NEW TISSUE FOR PAPER HANDKERCHIEFS TOWELS AND SERVIETTESS MANUFACTURING L.L.C',
     location: 'Abu Dhabi',
     category: 'completed',
@@ -205,7 +207,7 @@ export const projects = [
     description: 'State-of-the-art office complex with green building features'
   },
    {
-    id: -4,
+    id: 4,
     title: 'SWITCH FOODS INTERNATIONAL L.L.C',
     location: 'Abu Dhabi',
     category: 'completed',
@@ -213,7 +215,7 @@ export const projects = [
     description: 'State-of-the-art office complex with green building features'
   },
    {
-    id: -3,
+    id: 5,
     title: 'AL JAZEERA STEEL PRODUCTS CO. L.L.C',
     location: 'Abu Dhabi',
     category: 'completed',
@@ -221,7 +223,7 @@ export const projects = [
     description: 'State-of-the-art office complex with green building features'
   },
    {
-    id: -2,
+    id: 6,
     title: 'AQUA CHEMIE GLOBAL CHEMICALS L.L.C (PHASE I) ',
     location: 'Abu Dhabi',
     category: 'completed',
@@ -229,7 +231,7 @@ export const projects = [
     description: 'State-of-the-art office complex with green building features'
   },
    {
-    id: -1,
+    id: 7,
     title: 'P.S.M THOMASSEN L.L.C',
     location: 'Abu Dhabi',
     category: 'completed',
@@ -237,131 +239,8 @@ export const projects = [
     description: 'State-of-the-art office complex with green building features'
   },
 
-
   {
-    id: 1,
-    title: 'BESIX-TROJAN JV',
-    location: 'Abu Dhabi',
-    category: 'completed',
-    image: comp1,
-    description: 'State-of-the-art office complex with green building features'
-  },
-  {
-    id: 2,
-    title: 'AL SAWWAH SQUARE REAL ESTATE LLC',
-    location: 'Galleria Mall',
-    category: 'completed',
-    image: comp2,
-    description: 'Luxury residential tower with premium amenities'
-  },
-  {
-    id: 3,
-    title: 'AL SAWWAH SQUARE REAL ESTATE LLC',
-    location: 'Galleria Mall',
-    category: 'completed',
-    image: comp3,
-    description: 'Modern shopping center with contemporary design'
-  },
-  {
-    id: 4,
-    title: 'AL FARWANIYA REAL ESTATE DEVELOPMENT LLC',
-    location: 'Abu Dhabi',
-    category: 'completed',
-    image: comp4,
-    description: 'Modern shopping center with contemporary design'
-  },{
-    id: 5,
-    title: 'AL BARAKA INTERNATIONAL INVESTMENT LLC',
-    location: 'Al Qana',
-    category: 'completed',
-    image: comp5,
-    description: 'Modern shopping center with contemporary design'
-  },{
-    id: 6,
-    title: 'DIWAN WALI AHD',
-    location: 'WTC Mall',
-    category: 'completed',
-    image: comp6,
-    description: 'Modern shopping center with contemporary design'
-  },
-  // {
-  //   id: 7,
-  //   title: 'TESC General Contracting',
-  //   location: 'Al Reem Island Bridge',
-  //   category: 'completed',
-  //   image: comp7,
-  //   description: 'Modern shopping center with contemporary design'
-  // },
-  // {
-  //   id: 8,
-  //   title: 'Ghantoot General Contracting',
-  //   location: 'Akoya',
-  //   category: 'completed',
-  //   image: comp8,
-  //   description: 'Modern shopping center with contemporary design'
-  // },
-  // {
-  //   id: 9,
-  //   title: 'Civilco General Contracting',
-  //   location: 'Al Raha',
-  //   category: 'completed',
-  //   image: comp9,
-  //   description: 'Modern shopping center with contemporary design'
-  // },
-  // {
-  //   id: 10,
-  //   title: 'Art House Café',
-  //   location: 'Al Bandar, Al Raha Beach, Abu Dhabi',
-  //   category: 'completed',
-  //   image: comp10,
-  //   description: 'Modern shopping center with contemporary design'
-  // },
-  // {
-  //   id: 11,
-  //   title: ' Sun & Sand Sports LLC',
-  //   location: 'Marina Mall, Abu Dhabi',
-  //   category: 'completed',
-  //   image: comp11,
-  //   description: 'Modern shopping center with contemporary design'
-  // },
-  // {
-  //   id: 12,
-  //   title: 'Holister Fashion LLC',
-  //   location: 'Al Mariyah',
-  //   category: 'completed',
-  //   image: comp12,
-  //   description: 'Modern shopping center with contemporary design'
-  // },
-  // {
-  //   id: 13,
-  //   title: 'Givenchy ',
-  //   location: 'Galleria Mall, Abu Dhabi',
-  //   category: 'completed',
-  //   image: comp13,
-  //   description: 'Modern shopping center with contemporary design'
-  // },
-  // {
-  //   id: 14,
-  //   title: 'Mr.mohamed al zaabi',
-  //   location: 'Al Shamkha',
-  //   category: 'completed',
-  //   image: comp14,
-  //   description: 'Modern shopping center with contemporary design'
-  // },
-  // {
-  //   id: 15,
-  //   title: 'Mr.Abdllah Al Rumaithy',
-  //   location: 'Al Ryad city',
-  //   category: 'completed',
-  //   image: comp15,
-  //   description: 'Modern shopping center with contemporary design'
-  // },
-
-
-
-
-  {
-    id: 101,
+    id: 8,
     title: 'AQUA CHEMIE L.L.C (PHASE II)',
     location: 'UAE',
     category: 'ongoing',
@@ -369,15 +248,7 @@ export const projects = [
     description: 'Modern shopping center with contemporary design'
   },
     {
-    id: 102,
-    title: 'AL JAZEERA STEEL PRODUCTS SAOG',
-    location: 'UAE',
-    category: 'ongoing',
-    image: ong2,
-    description: 'Modern shopping center with contemporary design'
-  },
-    {
-    id: 103,
+    id: 9,
     title: 'MTQ',
     location: 'UAE',
     category: 'ongoing',
@@ -385,36 +256,91 @@ export const projects = [
     description: 'Modern shopping center with contemporary design'
   },
     {
-    id: 104,
+    id: 10,
     title: 'TAHZEEM PACKAGING',
     location: 'UAE',
     category: 'ongoing',
     image: ong4,
     description: 'Modern shopping center with contemporary design'
   },
-  //   {
-  //   id: 105,
-  //   title: 'TROJAN',
-  //   location: 'UAE',
-  //   category: 'ongoing',
-  //   image: ong5,
-  //   description: 'Modern shopping center with contemporary design'
-  // },
   
   {
-    id: 107,
-    title: 'AL MASOUD',
+    id: 11,
+    title: 'AL MASAOOD',
     location: 'UAE',
     category: 'ongoing',
     image: ong7,
     description: 'Modern shopping center with contemporary design'
   },
   {
-    id: 108,
+    id: 12,
     title: 'IGG',
     location: 'UAE',
     category: 'ongoing',
     image: ong8,
+    description: 'Modern shopping center with contemporary design'
+  },
+  {
+    id: 13,
+    title: 'GOTRADE',
+    location: 'Abu Dhabi',
+    category: 'ongoing',
+    image: ong9,
+    description: 'Modern shopping center with contemporary design'
+  },
+  {
+    id: 14,
+    title: 'ARABWOOD',
+    location: 'Abu Dhabi',
+    category: 'ongoing',
+    image: ong10,
+    description: 'Modern shopping center with contemporary design'
+  },
+
+  {
+    id: 15,
+    title: 'BESIX-TROJAN JV - Civil Work',
+    location: 'Abu Dhabi',
+    category: 'completed',
+    image: comp1,
+    description: 'State-of-the-art office complex with green building features'
+  },
+  {
+    id: 16,
+    title: 'CARTIER',
+    location: 'Galleria',
+    category: 'completed',
+    image: comp2,
+    description: 'Luxury residential tower with premium amenities'
+  },
+  {
+    id: 17,
+    title: 'RICHAD MILLE',
+    location: 'Galleria',
+    category: 'completed',
+    image: comp3,
+    description: 'Modern shopping center with contemporary design'
+  },
+  {
+    id: 18,
+    title: 'CARREFOUR HYPERMARKET',
+    location: 'Abu Dhabi',
+    category: 'completed',
+    image: comp4,
+    description: 'Modern shopping center with contemporary design'
+  },{
+    id: 19,
+    title: 'GRANDIOSE',
+    location: 'Al Qana',
+    category: 'completed',
+    image: comp5,
+    description: 'Modern shopping center with contemporary design'
+  },{
+    id: 20,
+    title: 'DELIVEROO',
+    location: 'WTC Mall',
+    category: 'completed',
+    image: comp6,
     description: 'Modern shopping center with contemporary design'
   },
   
