@@ -1,4 +1,3 @@
-
 import { jobOpenings } from '../data'
 
 export default function Careers() {
@@ -94,7 +93,7 @@ export default function Careers() {
                       {/* What Company Provides */}
                       <div className="mb-4">
                         <h4 className="font-semibold text-gray-900 mb-2">What we provide:</h4>
-                        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
                           {[
                             { icon: '🛂', label: 'Employment Visa' },
                             { icon: '💵', label: 'Attractive Salary' },
@@ -103,10 +102,10 @@ export default function Careers() {
                           ].map((perk, i) => (
                             <div
                               key={i}
-                              className="flex items-center gap-2 bg-gray-50 rounded-lg px-3 py-2 text-sm text-gray-700"
+                              className="flex items-center gap-2 bg-gray-50 rounded-lg px-3 py-2 text-sm text-gray-700 min-w-0"
                             >
-                              <span>{perk.icon}</span>
-                              <span>{perk.label}</span>
+                              <span className="shrink-0">{perk.icon}</span>
+                              <span className="break-words leading-snug">{perk.label}</span>
                             </div>
                           ))}
                         </div>
