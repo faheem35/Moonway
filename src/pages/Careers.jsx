@@ -1,3 +1,4 @@
+
 import { jobOpenings } from '../data'
 
 export default function Careers() {
@@ -61,16 +62,21 @@ export default function Careers() {
               {jobOpenings.map((job, index) => (
                 <div
                   key={job.id}
-                  className="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition-all duration-300 border-l-4 border-yellow-400"
+                  className="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition-all duration-300 border-l-4 border-yellow-400 relative"
                   style={{ animationDelay: `${index * 100}ms` }}
                 >
-                  <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-stretch">
+                  {/* Urgent Hiring Badge */}
+                  <span className="absolute -top-3 left-8 bg-red-500 text-white text-xs font-bold px-4 py-1 rounded-full shadow-md animate-pulse">
+                    🔥 URGENT HIRING
+                  </span>
+
+                  <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-stretch mt-3">
                     {/* Job Info */}
                     <div className="lg:col-span-2">
                       <div className="flex items-start justify-between mb-4 flex-wrap gap-3">
                         <div>
                           <h3 className="text-2xl font-bold text-gray-900 mb-2">{job.title}</h3>
-                          <div className="flex gap-4 flex-wrap text-gray-600">
+                          <div className="flex gap-4 flex-wrap text-gray-600 mb-2">
                             <span className="flex items-center gap-1">
                               <span>📍</span> {job.location}
                             </span>
@@ -78,9 +84,34 @@ export default function Careers() {
                               <span>🕐</span> {job.type}
                             </span>
                           </div>
+                          {/* Position Count */}
+                          <span className="inline-block bg-yellow-100 text-yellow-800 text-sm font-bold px-3 py-1 rounded-full">
+                            {job.openings || 30} Positions Open
+                          </span>
                         </div>
                       </div>
-                      <p className="text-gray-700 leading-relaxed mb-4">{job.description}</p>
+
+                      {/* What Company Provides */}
+                      <div className="mb-4">
+                        <h4 className="font-semibold text-gray-900 mb-2">What we provide:</h4>
+                        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                          {[
+                            { icon: '🛂', label: 'Employment Visa' },
+                            { icon: '💵', label: 'Attractive Salary' },
+                            { icon: '🏠', label: 'Accommodation' },
+                            { icon: '⏱️', label: 'Overtime Pay' },
+                          ].map((perk, i) => (
+                            <div
+                              key={i}
+                              className="flex items-center gap-2 bg-gray-50 rounded-lg px-3 py-2 text-sm text-gray-700"
+                            >
+                              <span>{perk.icon}</span>
+                              <span>{perk.label}</span>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+
                       <div className="mb-4">
                         <h4 className="font-semibold text-gray-900 mb-2">What we're looking for:</h4>
                         <ul className="text-gray-600 text-sm space-y-1 list-disc list-inside">
@@ -96,7 +127,7 @@ export default function Careers() {
                     <div className="lg:col-span-1 flex flex-col items-center justify-center h-full gap-3">
                       <button
                         onClick={() => handleApply(job.title)}
-                        className="w-full px-6 py-3 bg-yellow-400 text-gray-900 rounded-lg font-bold hover:bg-yellow-500 transition-colors duration-300 text-center"
+                        className="w-full px-6 py-3 bg-yellow-400 text-gray-900 rounded-lg font-bold hover:bg-yellow-500 transition-colors duration-300 text-center cursor-pointer"
                       >
                         Apply Now
                       </button>
@@ -109,18 +140,18 @@ export default function Careers() {
             <div className="text-center py-20 bg-white rounded-xl">
               <div className="text-6xl mb-4">🔍</div>
               <p className="text-xl text-gray-600 mb-4">No positions available at the moment</p>
-             <p className="text-gray-500">
-  Please check back soon or send us your CV for future opportunities
-</p>
+              <p className="text-gray-500">
+                Please check back soon or send us your CV for future opportunities
+              </p>
 
-<a
-  href="https://mail.google.com/mail/?view=cm&fs=1&to=info@moonwayuae.com&su=CV%20Submission%20-%20Future%20Opportunities"
-  target="_blank"
-  rel="noreferrer"
-  className="inline-block mt-6 px-8 py-3 bg-gray-900 text-white rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-300"
->
-  Send Your CV
-</a>
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=info@moonwayuae.com&su=CV%20Submission%20-%20Future%20Opportunities"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-block mt-6 px-8 py-3 bg-gray-900 text-white rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-300"
+              >
+                Send Your CV
+              </a>
             </div>
           )}
         </div>
@@ -162,53 +193,52 @@ export default function Careers() {
       </section>
 
       {/* Join Our Team Banner */}
-<section className="py-20 bg-gray-900 text-white">
-  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-    <div className="text-6xl mb-6">🏗️</div>
-    <h2 className="text-4xl md:text-5xl font-bold mb-6">
-      Be Part of Something Big
-    </h2>
-    <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-      At Moonway, we build more than structures — we build careers. Join a team that values hard work, creativity, and dedication to excellence across every project we deliver in the UAE.
-    </p>
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-      {[
-        { icon: '🤝', title: 'Collaborative Culture', desc: 'Work alongside experienced professionals who support your growth every step of the way.' },
-        { icon: '📈', title: 'Real Growth', desc: 'We invest in our people with training, mentorship, and clear paths to advancement.' },
-        { icon: '🌍', title: 'Impactful Work', desc: 'Be part of projects that shape the skyline and communities across the UAE.' },
-      ].map((item, index) => (
-        <div key={index} className="bg-white/10 backdrop-blur-sm p-8 rounded-xl border border-white/20">
-          <div className="text-4xl mb-4">{item.icon}</div>
-          <h3 className="text-xl font-bold mb-3 text-yellow-400">{item.title}</h3>
-          <p className="text-gray-300 leading-relaxed">{item.desc}</p>
+      <section className="py-20 bg-gray-900 text-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="text-6xl mb-6">🏗️</div>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+            Be Part of Something Big
+          </h2>
+          <p className="text-xl text-gray-300 mb-8 leading-relaxed">
+            At Moonway, we build more than structures — we build careers. Join a team that values hard work, creativity, and dedication to excellence across every project we deliver in the UAE.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+            {[
+              { icon: '🤝', title: 'Collaborative Culture', desc: 'Work alongside experienced professionals who support your growth every step of the way.' },
+              { icon: '📈', title: 'Real Growth', desc: 'We invest in our people with training, mentorship, and clear paths to advancement.' },
+              { icon: '🌍', title: 'Impactful Work', desc: 'Be part of projects that shape the skyline and communities across the UAE.' },
+            ].map((item, index) => (
+              <div key={index} className="bg-white/10 backdrop-blur-sm p-8 rounded-xl border border-white/20">
+                <div className="text-4xl mb-4">{item.icon}</div>
+                <h3 className="text-xl font-bold mb-3 text-yellow-400">{item.title}</h3>
+                <p className="text-gray-300 leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
         </div>
-      ))}
-    </div>
-  </div>
-</section>
+      </section>
 
       {/* CTA Section */}
+      <section className="py-20 bg-gray-100">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-4xl font-bold text-gray-900 mb-6">
+            Didn't Find a Matching Position?
+          </h2>
 
-<section className="py-20 bg-gray-100">
-  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-    <h2 className="text-4xl font-bold text-gray-900 mb-6">
-      Didn't Find a Matching Position?
-    </h2>
+          <p className="text-lg text-gray-600 mb-8">
+            We're always looking for talented individuals. Send us your CV and we'll keep it on file for future opportunities.
+          </p>
 
-    <p className="text-lg text-gray-600 mb-8">
-      We're always looking for talented individuals. Send us your CV and we'll keep it on file for future opportunities.
-    </p>
-
-    <a
-      href="https://mail.google.com/mail/?view=cm&fs=1&to=info@moonwayuae.com&su=CV%20Submission%20for%20Future%20Opportunities"
-      target="_blank"
-      rel="noreferrer"
-      className="inline-block px-10 py-4 bg-yellow-400 text-gray-900 rounded-lg font-bold text-lg hover:bg-yellow-500 transition-colors duration-300"
-    >
-      Send Your CV
-    </a>
-  </div>
-</section>
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=info@moonwayuae.com&su=CV%20Submission%20for%20Future%20Opportunities"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-block px-10 py-4 bg-yellow-400 text-gray-900 rounded-lg font-bold text-lg hover:bg-yellow-500 transition-colors duration-300"
+          >
+            Send Your CV
+          </a>
+        </div>
+      </section>
 
     </main>
   )

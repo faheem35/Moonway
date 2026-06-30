@@ -434,20 +434,22 @@ export const clients = [
 ];
 
 export const jobOpenings = [
-  // {
-  //   id: 1,
-  //   title: 'Site Engineer',
-  //   location: 'Abu Dhabi',
-  //   type: 'Full-time',
-  //   description: 'We are looking for experienced site engineers to manage construction projects'
-  // },
-  // {
-  //   id: 2,
-  //   title: 'Interior Designer',
-  //   location: 'Dubai',
-  //   type: 'Full-time',
-  //   description: 'Creative interior designer needed for residential and commercial projects'
-  // }
+{
+  id: 1,
+  title: 'Carpenter',
+  location: 'Abu Dhabi',
+  type: 'Full-time',
+  openings: 30,
+  description: 'Urgent hiring: 30 skilled Carpenters needed...'
+},
+{
+  id: 2,
+  title: 'Steel Fixer',
+  location: 'Abu Dhabi',
+  type: 'Full-time',
+  openings: 30,
+  description: 'Urgent hiring: 30 skilled Steel Fixers needed...'
+}
 ];
 
 export const testimonials = [
