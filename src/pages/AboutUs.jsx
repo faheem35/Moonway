@@ -4,7 +4,7 @@ import cert1 from '../assets/aboutus/cert1.jpeg'
 import cert2 from '../assets/aboutus/cert2.jpeg'
 import cert3 from '../assets/aboutus/cert3.jpeg'
 import license1 from '../assets/aboutus/license1.jpeg'
-import license2 from '../assets/aboutus/license2.jpeg'
+import license2 from '../assets/aboutus/license2.jpg'
 
 export default function AboutUs() {
   const [zoomedImage, setZoomedImage] = useState(null)
