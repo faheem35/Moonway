@@ -7,10 +7,20 @@ export default function Careers() {
   // }
 
 const handleApply = (jobTitle) => {
-  window.location.href = `mailto:info@moonwayuae.com?subject=${encodeURIComponent(
-    `Job Application: ${jobTitle}`
-  )}`;
+  const subject = encodeURIComponent(`Job Application: ${jobTitle}`);
+
+  const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+  if (isMobile) {
+    window.location.href = `mailto:info@moonwayuae.com?subject=${subject}`;
+  } else {
+    window.open(
+      `https://mail.google.com/mail/?view=cm&fs=1&to=info@moonwayuae.com&su=${subject}`,
+      "_blank"
+    );
+  }
 };
+
   return (
     <main className="w-full pt-20">
 
