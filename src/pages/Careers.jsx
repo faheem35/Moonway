@@ -1,11 +1,16 @@
 import { jobOpenings } from '../data'
 
 export default function Careers() {
-  const handleApply = (jobTitle) => {
-    const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=info@moonwayuae.com&su=Job%20Application:%20${encodeURIComponent(jobTitle)}`
-    window.open(mailtoLink, '_blank')
-  }
+  // const handleApply = (jobTitle) => {
+  //   const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=info@moonwayuae.com&su=Job%20Application:%20${encodeURIComponent(jobTitle)}`
+  //   window.open(mailtoLink, '_blank')
+  // }
 
+const handleApply = (jobTitle) => {
+  window.location.href = `mailto:info@moonwayuae.com?subject=${encodeURIComponent(
+    `Job Application: ${jobTitle}`
+  )}`;
+};
   return (
     <main className="w-full pt-20">
 
